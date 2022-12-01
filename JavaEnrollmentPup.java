@@ -2,7 +2,7 @@ package part1_java_final;
 
 import java.awt.Color;
 import java.awt.Font;
-
+import javax.swing.UIManager;
 import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
@@ -17,7 +17,11 @@ public class JavaEnrollmentPup {
 		int engGrade, mathGrade, scienceGrade, hsGwa;
 		double genAve;
 		
-		
+		 UIManager um=new UIManager();
+  
+ 		 um.put("OptionPane.messageForeground", Color.green);
+  		 um.put("OptionPane.background",Color.black);
+ 		 um.put("Panel.background",Color.black);
 	
 		
 		
